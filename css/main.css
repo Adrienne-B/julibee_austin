@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/***** BASE STYLES *****/	
+html, body {
+	height: 100%;
+	margin: 0px;
+	overflow-x: hidden;
+	padding: 0px;
+	width: 100%;
+}
+
+body {
+	color: #2b2b2b;
+	font-family: 'Source Sans Pro', 'Sans-serff';
+}
+
+header {
+	background-image: url("full-background.png");
+	background-position: center;
+	background-size: cover;
+	height: 50rem;
+	width: 100%;
+}
+
+header h1, h2 {
+	margin: 4.8rem;
+	padding-left: 5em;
+}
+
+header h1 {
+	color: yellowgreen;
+	font-size: 2rem;
+	padding-left: 8.2em;
+}
+
+header h2 {
+	color: darkgray;
+	font-size: 3.4rem;
+	padding-left: 5em;
+}
+
+span {
+	color: black;
+}
+
+.half-side li {
+	float: right;
+	font-size: 1.12rem;
+	list-style: none;
+	margin: 2em;
+	margin-right: 5em;
+}
+
+.half-side a {
+	color: dimgray;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-decoration: none;
+}
+
+.full-width {
+	margin: 0px auto 0px auto;
+	overflow: auto;
+	width: 1200px;
+}
+
+
+
+/****White section**/
+
+#about {
+	display: flex;
+	flex-direction: row;
+}
+
+.half-width {
+	margin-left: 4rem; 
+	margin-bottom: 4rem;
+}
+
+#about h3 {
+	font-size: 1.7rem;
+	margin-left: 9rem;
+	margin-top: 4rem;
+
+}
+
+#about, .half-width h3 p{
+	margin-left: 6rem;
+}
+
+.half-width p {
+	margin-left: 5rem;
+	word-wrap: break-word;
+	width: 87%;
+
+}
+
+.third-width{
+	width: 400px;
+	float:left;
+}
+
+
+/****White section Ends**/
+
+/**
+.header{
+	float: right;
+}**/
+
+
+.half-width {
+	float: left;
+	word-wrap: break-word;
+	width: 34%;
+}
+
+
+/**Start of the peach section**/
+
+#work {
+	background-color: peachpuff;
+	padding: 115px 0;
+	width: 100%;
+}
+
+#work .full-width  {
+	padding-right: 8em;
+}
+
+#work img{
+	padding-bottom: 30px;
+	margin-left: 13rem;
+}
+
+#work h3{
+	margin: 0 auto;
+	margin-left: 175px;
+}
+#work p{
+	flex-basis: 64px;
+	padding: 0 50px;
+	margin-left: 7.5rem;
+	text-align: center;
+}
+
+/**Start of the contact section**/
+
+#contact .full-width {
+	background-color: lightgrey;
+	padding-left: 2.3rem;
+	width: 100%;
+}
+
+#third-width {
+	margin-left: 57em;
+	margin-top: -29rem;
+}
+#third-width h3 {
+	color: black;
+	font-size: 2rem;
+	margin: 2px;
+}
+
+#third-width h5 {
+	font-size: 1.2rem;
+	margin: 5px;
+
+}
+	
+.half-width img{
+	margin-left: 12rem;
+	border: 12px solid #ffffff;
+	width:89%;
+}
+
+#contact .full-width{
+	padding: 110px 0;
+
+}
+#contact #envelope{
+	padding: 0 10px 0 115px;
+}
+#half-width img{
+	border: 10px solid #ffff;
+}
+.contact img{
+	margin-right:200px;
+	
+}
+.email-header{
+	float: right;
+	margin-right: 65px;
+}
+
+.half-width img {
+	margin-left: 12rem;
+}
+
+.h2 {
+	margin-right: 155px;
+}
+
+.h3 {
+margin-right: 165px;
+}
+
+.half-width h2{
+	margin-left: 200px;
+}
+
+.social-icons h4 {
+	font-size: 1.5rem;
+}
+
+.social-icons img {
+	padding-left: 1.0rem;
+	padding-top: 1rem;
+	width: 2.4rem;
+}
+
+/* ==========================================================================
+ About Page for Tablet
+   ========================================================================== */	
+
+

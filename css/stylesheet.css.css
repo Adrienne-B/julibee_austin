@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.half-width {
+	width: 600px;
+}
+.third-width {
+	width: 400px;
+}
