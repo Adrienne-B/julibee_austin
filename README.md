@@ -16,7 +16,7 @@ The third section showcases her knowledge and skills as a web designer; and last
 Adobe Dreamweaver (text-editor)
 
 #### What I learn:
-Since I had past experience on the basics of HTML and CSS, that was more of a breeze. But, the challenge was fusing flexbox and media queries in order 
+Since I had past experience on the basics of HTML and CSS, that was more of a breeze. But, the challenge was using flexbox and media queries in order 
 to create three different layouts to be cohesive tothe device used 
 
 ##### Challenges to improve on
